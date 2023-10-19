@@ -68,7 +68,9 @@ S = "${WORKDIR}/git"
 # and then properly sort out the libyuv stuff in the build system either by fixing
 # the broken crap or replacing all of autotools for CMake or Meson.  We only need
 # one or two things turned more properly on/off and we'll have the IMS core for VoLTE
-# and VoWIFI.
+# and VoWIFI.  Maybe even the ViLTE and ViWIFI (Video over...) stuff.  Be nifty
+# to have a universal solution that ties back to stuff that allows Teams and Meet
+# to work on a target here.
 EXTRA_OECONF += " \
     --without-yuv \
     "
