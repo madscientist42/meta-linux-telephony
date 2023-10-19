@@ -1,6 +1,6 @@
 DESCRIPTION = "A Fork of the Doubango 3GPP IMS implementation"
 HOMEPAGE = "https://github.com/madscientist42/doubango"
-LICENSE = "GPLv2"
+LICENSE = "GPL-2.0-only"
 
 LIC_FILES_CHKSUM = "file://Licensing.md;md5=30f1fe3b9d227ca76fe5efe11f37cb68"
 
