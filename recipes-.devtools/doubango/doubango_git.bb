@@ -9,11 +9,11 @@ inherit autotools-brokensep pkgconfig
 
 # FIXME!!
 #
-# Current missing functionality is iLBC, SRTP and OpenH264- all supports have
+# Current missing functionality is SRTP and OpenH264- all supports have
 # bitrot going on due to drift in codebases on upstream.  We're not going to go
 # and use OLD crap in the implementations here for PHA Linux- we've forked it
 # to go do versioning right, so in for a penny, in for a pound.  We'll fix this
-# over time along with the silly build system.
+# over time along with the silly build system if needed
 
 DEPENDS = " \
     alsa-lib \
