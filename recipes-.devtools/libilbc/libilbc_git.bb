@@ -19,7 +19,9 @@ SRC_URI = " \
     file://0001-fix-cmake-for-yocto.patch \
     "
 
-SRCREV = "v${PV}"
+# FIXME : Cheat and autorev this for now.  Will fix with a versioned hash
+#         shortly so we have a clean answer for this going forward.
+SRCREV = "${AUTOREV}"
 
 S = "${WORKDIR}/git"
 

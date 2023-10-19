@@ -45,7 +45,7 @@ RDEPENDS_${PN} = " \
     "
 
 SRC_URI = " \
-    git://git@github.com/madscientist42/doubango.git;protocol=ssh \
+    git://git@github.com/madscientist42/doubango.git;branch=master;protocol=ssh \
     "
 
 # FIXME : We're going to cheat a bit until this fully gells.  There's work to be
